@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <!-- boxicons css -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="header__logo">Logo</a>
+        <div class="header__icons">
+          <a href="#!" class="header__icon"><i class="bx bx-user"></i></a>
+          <a href="#!" class="header__icon"><i class="bx bx-heart"></i></a>
+          <a href="#!" class="header__icon" id="cart-icon" data-count=""><i class="bx bx-briefcase-alt"></i></a>
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+      </div>
+      <ul class="mobile__nabvar nav">
+        <li class="nav__item"><a href="#!" class="nav__link">постельное белье</a></li>
+        <li class="nav__item"><a href="#!" class="nav__link">одежда для дома</a></li>
+        <li class="nav__item"><a href="#!" class="nav__link">Одежда для улицы</a></li>
+        <li class="nav__item"><a href="#!" class="nav__link">выход</a></li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="main__container">
+        <div class="main__image">
+          <img class="product__image" src="image/JacketBlue.jpg" alt="main image" />
+          <aside class="aside">
+            <div class="aside__image">
+              <img class="cart__image" src="image/JacketBlue.jpg" alt="Куртка1" />
+            </div>
+            <div class="aside__image">
+              <img src="image/JacketBlue1.jpg" alt="Куртка2" />
+            </div>
+            <div class="aside__image">
+              <img src="image/JacketBlue2.jpg" alt="Куртка3" />
+            </div>
+            <div class="aside__image">
+              <img src="image/JacketBlue3.jpg" alt="Куртка4" />
+            </div>
+            <div class="aside__image">
+              <img src="image/JacketBlue4.jpg" alt="Куртка5" />
+            </div>
+          </aside>
+        </div>
+        <div class="main__content content">
+          <div class="content__product">
+            <div class="content__desc">
+              <h3>Куртка женская</h3>
+              <p>Арт. 02765/46</p>
+              <div class="content__reviews reviews">
+                <span>Отзывы</span>
+                <div class="reviews__stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bx-star"></i>
+                </div>
+                <span>14 отзывов</span>
+                <a href="#!" class="right__btn"><img src="icons/arrow right swipe.svg" alt="right-arrow" /></a>
+              </div>
+            </div>
+            <div class="content__price">
+              <div class="price">
+                <!-- рубли надо сделать норм -->
+                <span data-price>800 ₽</span>
+                <span>1 500 ₽</span>
+                <!--  -->
+                <a href="#!" class="right__btn"><img src="icons/arrow right swipe.svg" alt="right-arrow" /></a>
+              </div>
+              <div class="sales">
+                <span>скидка -47%</span>
+                <span>акция -20%</span>
+              </div>
+            </div>
+            <div class="content__cart cart">
+              <select name="size" id="size">
+                <option value="" selected>Выбрать размер</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+              <p>Определить размер</p>
+              <div class="cart__btns">
+                <span data-action="plus">+</span><span data-counter>1</span><span data-action="minus">-</span>
+                <button type="button" class="button cart">Добавить в корзину</button>
+                <button type="button" class="button fav"><img src="icons/Frame.png" alt="##" /></button>
+              </div>
+              <button class="oneclick">Купить в 1 клик</button>
+            </div>
+          </div>
+          <div class="content__options">
+            <button href="#!" class="choose accordion"><img src="icons/Closes.svg" alt="1" />Описание товара</button>
+            <div class="product__desc">
+              <p>Легкая водонепроницаемая куртка, в которой есть все самое необходимое.</p>
+              <p>
+                Водонепроницаемая и ветрозащитная, c персиково-мягкой внешней стороной и подкладкой из джерси, это идеальная легкая куртка для тех переходных сезонных моментов,
+                когда на улице немного теплее, но надвигаются дождевые облака, или когда вечерний воздух все еще немного прохладен.
+              </p>
+              <p>
+                Скрытый капюшон и передние карманы на молнии делают линии чистыми и не вычурными. Бретонские полоски и регулируемые шнуры поддерживают морской стиль в различных
+                цветовых вариантах.
+              </p>
+            </div>
+            <a href="#!" class="choose"><img src="icons/watch.svg" alt="2" />Доставка и возврат</a>
+            <a href="#!" class="choose"><img src="icons/pay.svg" alt="3" />Способы оплаты</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <h4>Покупателям</h4>
+          <a href="#!">Каталог</a>
+          <a href="#!">Акции</a>
+          <a href="#!">Бренды</a>
+        </div>
+        <div class="footer__content">
+          <h4>О нас</h4>
+          <a href="#!">О компании</a>
+          <a href="#!">Новости</a>
+          <a href="#!">Команда</a>
+        </div>
+        <div class="footer__content stock">
+          <h4>Узнайте первыми о новинках и акциях</h4>
+          <form>
+            <input type="email" placeholder="Адрес электронной почты" required />
+            <input type="submit" value="Подписаться" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="modal">
+      <div class="modal__container">
+        <h3>Купить в 1 клик</h3>
+        <form action="post">
+          <input type="tel" id="phone" name="phone" placeholder="+ 7 (---) --- -- -- " required />
+          <input type="text" id="username" name="username" placeholder="Ваше имя" required />
+          <p>Нажимая кнопку “Отправить”, я даю согласие на обработку моих персональных данных в соответствии с <a href="#!">Условиями конфиденциальности</a></p>
+          <input type="submit" value="Отправить" class="button cart" />
+        </form>
+        <div class="bx bx-x" id="modal-close"></div>
+      </div>
+    </div>
+    <aside class="cartbuy">
+      <div class="cartbuy__header">
+        <h3>В корзине</h3>
+      </div>
+      <div class="cart__emty">Ваша корзина пуста</div>
+      <div class="cartbuy__body"></div>
+      <div class="cartbuy__footer">
+        <div class="cartbuy__total">
+          <h4>Сумма заказа:</h4>
+          <span class="cart__total-price">0 </span>
+          <span>₽</span>
+        </div>
+        <button class="cart__button">Оформить заказ</button>
+      </div>
+    </aside>
+    <!-- custom js -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
